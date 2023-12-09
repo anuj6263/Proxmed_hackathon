@@ -1,0 +1,21 @@
+segmentation-models
+nibabel
+nilearn
+
+os
+os.environ["SM_FRAMEWORK"] = "tf.keras"
+import warnings
+warnings.filterwarnings('ignore')
+import gc
+from tensorflow import keras
+from keras.callbacks import EarlyStopping
+pandas as pd
+numpy as np
+matplotlib.pyplot as plt
+scipy.ndimage as ndi
+tensorflow as tf
+random
+
+from keras import backend as K
+from keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
