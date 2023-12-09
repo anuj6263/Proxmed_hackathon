@@ -4,6 +4,10 @@
 
 In requirements.txt file
 
+## Pretrained Model
+
+The model hasn't been shared here due to size constraints, though it's shared on Google Drive link provided in model_h5_file.txt
+
 ## To run this project
 
 1. Clone the repo.
